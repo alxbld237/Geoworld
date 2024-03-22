@@ -78,3 +78,5 @@ function getCapitale($id)
     $query = "SELECT Name FROM City WHERE City.id = $id";
     return $pdo->query($query)->fetch()->Name;
 }
+
+
